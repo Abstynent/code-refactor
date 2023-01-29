@@ -4,27 +4,27 @@
     margin: 0;
 }
 
-/* Set whole page style. */
+
 body {
     background-color: #d9dcd6; 
 }
-/* Set style for header: set padding, font family, background color and text color. */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Set style for <h1> in header, display and font-size. */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Set style for <h1> class seo to change color. */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Set style to header section. */
+
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,22 +32,22 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Set style to list in header section - "menu" */
+
 .header section ul {
     list-style-type: none;
 }
-/* Set style to each element in "menu" to display them next to each other - inline. */
+
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* End of styling header. */
+
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* Display image in section with id="hero" */
+
 #hero {
     height: 800px;
     width: 100%;
@@ -56,7 +56,7 @@ a {
     background-size: cover;
     background-position: center;
 }
-/* Set font size in <p> elements. */
+
 p {
     font-size: 16px;
 }
@@ -88,31 +88,15 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
