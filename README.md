@@ -6,3 +6,4 @@ Code refactor of an existing website to meet acceptance criteria, to make it mor
 ![](./assets/images/page_screenshot.png)
 
 ## Link
+[Click here](https://abstynent.github.io/code-refactor/)
