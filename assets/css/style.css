@@ -1,11 +1,12 @@
 /* ------ MAIN RULES ------ */
+/* Removing padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
+/* Setting background color */
 body {
     background-color: #d9dcd6; 
 }
@@ -20,7 +21,7 @@ p {
 }
 
 /* ----- HEADER ------ */
-.header {
+.header { /* Header attributes. */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
